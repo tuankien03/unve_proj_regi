@@ -1,0 +1,29 @@
+.login {
+    /* background-color: #F1F5FD; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+.image {
+    display: block;
+    content: url(../../img/logo.png);
+    height: 75px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.message {
+    color: red;
+}

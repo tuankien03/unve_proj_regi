@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) {
+    .SidebarItem {
+        margin: 10px 0px;
+    }
+    
+    
+    .SidebarItem .Link{
+        font-size: 16px;
+        border: none;
+        background-color: white;
+        margin-left: 10px;
+        color: rgb(53,53,53);
+        font-weight: 550;
+        text-decoration: none;
+    }
+    
+    .SidebarItem .Link:active {
+        color: #9FA6CF;
+    }
+    
+    .SidebarItem .Link span {
+        display: inline-block;
+        width: 15px;
+        margin-left: 30px;
+        margin-right: 10px;
+        color: #9FA6CF;
+        font-size: 18px;
+    }
+    
+    .SidebarItem .Link p {
+        display: inline-block;
+    } 
+}
+
+@media screen and (max-width: 768px){
+    .SidebarItem {
+        margin: 10px 0px;
+    }
+    
+    
+    .SidebarItem .Link{
+        font-size: 16px;
+        border: none;
+        background-color: white;
+        margin-left: 10px;
+        color: rgb(53,53,53);
+        font-weight: 550;
+        text-decoration: none;
+    }
+    
+    .SidebarItem .Link:active {
+        color: #9FA6CF;
+    }
+    
+    .SidebarItem .Link span {
+        display: inline-block;
+        width: 15px;
+        color: #9FA6CF;
+        font-size: 18px;
+    }
+    
+    .SidebarItem .Link p {
+        display: none;
+    } 
+}

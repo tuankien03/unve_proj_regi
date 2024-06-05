@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) {
+    .Sidebar {
+        background-color: white;
+        top: 0;
+        width: 20%;
+        position: fixed;
+        left: 0;
+        height: 100%;
+    }
+    
+    #logout {
+        display: inline-block;
+        position: absolute;
+        bottom: 6%;
+    }
+    
+    .Feature {
+        position: absolute;
+        top: 100px;
+    }
+    .lout {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .Sidebar {
+        background-color: white;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        height: 8%;
+        display: flex;
+        z-index: 1;
+    }
+    .Feature {
+        display: flex;
+        justify-content: space-evenly;
+        flex: 3;
+    }
+    #logout {
+        display: inline-block;
+        flex: 1;
+    }
+    .lout {
+        display: inline-block;
+    }
+}
+
+

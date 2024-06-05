@@ -1,0 +1,24 @@
+.Search {
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    width: 250px;
+    background-color: white;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content:space-around;
+    color: #9FA6CF;
+    font-weight: 700;
+}
+
+.Search input {
+    border: none;
+    outline: none;
+    width: 180px;
+}
+
+.Search input:focus-visible {
+    border: none;
+}
+
